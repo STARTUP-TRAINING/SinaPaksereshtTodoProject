@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="todo.css">
+    </head>
+    <body>
+
+        <header>
+            <div id="app_title">
+                Gholam Todo
+            </div>
+            <div id="title_description">
+                Best Todo App in the Universe and Surrounding Areas!
+            </div>
+        </header>
+
+
+        
+        <section id="add_todo">
+            <label> Add Todo:
+                <input id="add_todo_input" type="text">
+            </label>
+            <button id="add_todo_button"> Add </button>
+        </section>
+
+
+
+        <section class="table">
+            <ul id="columns">
+
+                <li class="column" id="column_1">
+
+                    <span class="column_title">
+                        1st column
+                    </span>
+
+                    <ul class="cells">
+                        
+                        <li class="cell" id="cell_1">
+                            <span class="cell_description">
+                                this is 1st
+                            </span>
+                            <ul class="buttons">
+                                <button class="cell_button" id="cell_0,column_0">Todo</button>
+                                <button class="cell_button" id="cell_0,column_1">Remove</button>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+
+                <button id="add_column_button">+</button>
+                
+                
+            </ul>
+        </section>
+    
+        <script src="todo.js"></script>
+    </body>
+</html>
